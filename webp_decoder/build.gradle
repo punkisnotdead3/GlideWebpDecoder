@@ -11,7 +11,8 @@ dependencies {
 }
 
 android {
-    ndkVersion "${NDK_VERSION}"
+    ndkVersion "25.2.9519653"
+
     compileSdkVersion COMPILE_SDK_VERSION as int
     buildToolsVersion BUILD_TOOLS_VERSION as String
 
@@ -50,4 +51,4 @@ android {
     }
 }
 
-apply from: "${rootProject.projectDir}/release-bintray.gradle"
+//apply from: "${rootProject.projectDir}/release-bintray.gradle"
